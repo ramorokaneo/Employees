@@ -1,0 +1,148 @@
+.employee-list {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .employee-list h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .employee-list {
+      max-width: 100%;
+    }
+  }
+
+  /* Style for buttons */
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px; /* Add curved edges */
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Style for the Employee cards */
+.employee-card {
+  width: 550px; /* Adjust the width as needed */
+  height: 500px; /* Adjust the height as needed */
+  border: 2px solid #000; /* Thick outline border */
+  border-radius: 10px; /* Curved edges */
+  margin: 10px; /* Add some margin between cards */
+  padding: 10px; /* Add padding inside the card */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.employee-card img {
+  max-width: 50%; /* Ensure the image fits the card width */
+  max-height: 50%; /* Ensure the image fits the card height */
+  object-fit: cover; /* Adjust how the image is displayed (e.g., cover, contain) */
+}
+
+/* Style for the Logout button */
+.logout-button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px; /* Add curved edges */
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Additional styles for inputs when in edit mode */
+input {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Style for the Save button */
+.save-button {
+  background-color: black; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px; /* Curved edges */
+  cursor: pointer;
+  margin-right: 10px; /* Add some spacing between buttons */
+}
+
+/* Hover effect for the Save button */
+.save-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for the Delete button */
+.delete-button {
+  background-color: black; /* Red background color */
+  color: #fff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px; /* Curved edges */
+  cursor: pointer;
+  margin-right: 10px; /* Add some spacing between buttons */
+}
+
+/* Hover effect for the Delete button */
+.delete-button:hover {
+  background-color: #bb2d3b; /* Darker red on hover */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Creates space between buttons */
+}
+
+.button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Curved edges */
+}
+
+.edit-button {
+  background-color: black;
+  color: white;
+}
+
+.delete-button {
+  background-color: black; /* You can choose a color for delete button */
+  color: white;
+}
+
+  
